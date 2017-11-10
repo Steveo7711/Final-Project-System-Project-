@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home - CheatSheet Dictionary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Link the style sheets -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+<!-- link the script files -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script text="text/javascript" src="js/index.js"></script> -->
+    <script text="text/javascript" src="js/search.js"></script>
+  </head>
+<body class="imgfill" background="background.jpg">
+
+  <div>
+    <h1>CheatSheet Dictionary</h1>
+    <h3>The place where you can search for cheat sheets!</h3>
+  </div>
+
+  <!-- make the navigation toolbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="active">Search</li>
+      <li><a href="Contact.html">Contact</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
+  <div class="content container-fluid">
+      <form method="get" enctype="text/plain">
+        <div class="input-group">
+          <input id="searchString" class="form-control" type="text" name="searchStrg" placeholder="search for cheatsheets..." />
+          <span class="input-group-btn">
+            <input class="btn btn-secondary" type="submit" name="submit" value="Search" />
+          </span>
+        </div>
+      </form>
+
+      <!-- we will display results/message here -->
+      <div id="searchResults" class="container-fluid"></div>
+  </div>
+
+  <div class="footer">
+   <small>&copy; Copyright 2017, Owner: Steven Dale</small>
+  </div>
+
+</body>
+
+</html>
