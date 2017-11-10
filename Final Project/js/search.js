@@ -87,7 +87,7 @@ function createCheatsheetLi(title, linkToCheatsheet) {
 
 function createNotFoundDiv() { // make catch if the keywords dont match anything
   var div = $("<div></div>");
-  div.text("Sorry mate, that isnt in our Database currently.") //best i could come up with lol.
+  div.text("Sorry mate, that isnt in our Database currently. Please try and search for something else") //best i could come up with lol.
   return div;
 }
 
